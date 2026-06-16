@@ -89,3 +89,128 @@ ul, a {
     justify-content: center;
     width: 500px;
 }
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 0px 32px 0px;
+    gap: 24px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+
+.info-section p {
+    text-align: center;
+    font-size: 18px;
+    color: #4B5563;
+}
+
+.placeholder {
+    height: 160px;
+    width: 160px;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B5563;
+    flex-direction: column;
+    padding: 64px 190px;
+}
+
+.quote blockquote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.attribution {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.quote blockquote,
+.quote .attribution {
+    max-width: 800px;
+    width: 100%;
+}
+
+.action {
+    padding: 64px 128px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-header, .action-left p {
+    margin: 0px;
+}
+
+.action-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    border: 1px solid;
+    color: white;
+    background-color: transparent;
+    align-self: center;
+    padding: 10px 48px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 50px 0px;
+}
